@@ -1,0 +1,39 @@
+.container__principal-card {
+  width: 435px;
+  height: 450px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container__principal-card > img {
+  width: 100%;
+  min-width: 435px;
+  height: 270px;
+}
+
+
+.principal-card__date {
+  color: #6f706f;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.principal-card__title {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.principal-card__description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6f706f;
+}
+
+a:hover{
+  background: linear-gradient(172deg, #FD6039 5.93%, #FE3576 69.68%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,46 @@
+.container__medium-card {
+  width: 600px;
+  height: 175px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.container__medium-card  > img {
+  height: 100%;
+  width: 245px;
+  min-width: 245px;
+}
+
+.medium-card__content {
+  display: inherit;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.medium-card__date {
+  color: #6f706f;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.medium-card__title > a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1B140C;
+}
+
+.medium-card__title > a:hover {
+  background: linear-gradient(172deg, #FD6039 5.93%, #FE3576 69.68%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.left-content__description {
+  font-size: 14px;
+  color: #6F706F;
+}

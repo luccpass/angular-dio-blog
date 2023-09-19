@@ -1,0 +1,32 @@
+.container__big-card {
+  width: 200px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container__big-card > img {
+  width: 100%;
+  min-width: 200px;
+  height: 355px;
+}
+
+.big-card__date {
+  color: #D2D0D2;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.big-card__title > a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2F2F31;
+}
+
+.big-card__title > a:hover {
+  background: linear-gradient(172deg, #FD6039 5.93%, #FE3576 69.68%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

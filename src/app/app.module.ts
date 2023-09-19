@@ -11,7 +11,6 @@ import { MediumCardVerticalComponent } from './components/medium-card-vertical/m
 import { SmallCardVerticalComponent } from './components/small-card-vertical/small-card-vertical.component';
 import { SmallCardHorizontalComponent } from './components/small-card-horizontal/small-card-horizontal.component';
 import { MediumCardHorizontalComponent } from './components/medium-card-horizontal/medium-card-horizontal.component';
-import { OthersArticlesComponent } from './components/others-articles/others-articles.component';
 import { OthersArticlesCardComponent } from './components/others-articles-card/others-articles-card.component';
 import { DepositionsCardComponent } from './components/depositions-card/depositions-card.component';
 import { HighlightSectionComponent } from './components/highlight-section/highlight-section.component';
@@ -28,7 +27,6 @@ import { HomeComponent } from './pages/home/home.component';
     SmallCardVerticalComponent,
     SmallCardHorizontalComponent,
     MediumCardHorizontalComponent,
-    OthersArticlesComponent,
     OthersArticlesCardComponent,
     DepositionsCardComponent,
     HighlightSectionComponent,

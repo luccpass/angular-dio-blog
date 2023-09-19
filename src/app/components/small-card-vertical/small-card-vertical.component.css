@@ -1,0 +1,38 @@
+.container__small-card {
+  width: 100%;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container__small-card > img {
+  width: 100%;
+  min-width: 200px;
+  height: 125px;
+}
+
+.small-card__date {
+  color: #D2D0D2;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.small-card__title > a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2F2F31;
+}
+
+.small-card__description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6f706f;
+}
+
+.small-card__title > a:hover {
+  background: linear-gradient(172deg, #FD6039 5.93%, #FE3576 69.68%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
